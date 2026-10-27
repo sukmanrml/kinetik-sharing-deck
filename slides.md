@@ -155,10 +155,6 @@ src: ./pages/25a-angka-kredit-cara-hitung.md
 ---
 
 ---
-src: ./pages/26-pimpinan-4-4-kertas-kerja-fra.md
----
-
----
 src: ./pages/26d-fra-data-bulanan.md
 ---
 

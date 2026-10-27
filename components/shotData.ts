@@ -131,9 +131,10 @@ export const shots: Record<string, ShotDef> = {
         "src": "/shots/fra-bulanan.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {"n": 1, "x": 69, "y": 15, "text": "Pilih tampilan Data bulanan."},
-            {"n": 2, "x": 45, "y": 51, "text": "X dan Y tiap bulan, diisi PJ tim pemilik."},
-            {"n": 3, "x": 52, "y": 60, "text": "Persen otomatis: hijau tercapai, kuning belum, merah kosong."}
+            {"n": 1, "x": 21, "y": 27, "text": "Pilih sampai bulan berapa. Kartu di atas ikut berubah."},
+            {"n": 2, "x": 45, "y": 52, "text": "X dan Y tiap bulan, diisi PJ tim pemilik."},
+            {"n": 3, "x": 52, "y": 62, "text": "Persen bulan itu: hijau tercapai, kuning belum, merah kosong."},
+            {"n": 4, "x": 68, "y": 64, "text": "Kumulatif dari Januari terhadap target tahunan. Bingkai menandai bulan terpilih."}
         ]
     },
     "member-beranda": {
