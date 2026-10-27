@@ -59,6 +59,8 @@ src: ./pages/10-berapa-langkah-yang-dipangkas.md
 ---
 src: ./pages/11-ritual-baru-tiap-senin-pagi.md
 ---
+src: ./pages/11a-anggota-beranda.md
+---
 
 ---
 src: ./pages/s04-bagian-2.md

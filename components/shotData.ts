@@ -136,6 +136,16 @@ export const shots: Record<string, ShotDef> = {
             {"n": 3, "x": 52, "y": 60, "text": "Persen otomatis: hijau tercapai, kuning belum, merah kosong."}
         ]
     },
+    "member-beranda": {
+        "src": "/shots/member-beranda.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
+        "steps": [
+            {"n": 1, "x": 51, "y": 22, "text": "Rencana minggu ini sudah ada atau belum."},
+            {"n": 2, "x": 96, "y": 22, "text": "Capaian minggu lalu: yang sudah dan belum diisi."},
+            {"n": 3, "x": 51, "y": 49, "text": "Kegiatan bulan ini yang sudah dikirim ke atasan."},
+            {"n": 4, "x": 96, "y": 49, "text": "SKP tahun ini yang belum selesai dinilai."}
+        ]
+    },
     "review-bersama": {
         "src": "/shots/review-bersama.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
