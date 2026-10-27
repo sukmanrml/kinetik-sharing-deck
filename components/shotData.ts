@@ -21,45 +21,17 @@ export const shots: Record<string, ShotDef> = {
     },
     "member-add": {
         "src": "/shots/member-add.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {
-                "n": 1,
-                "x": 34,
-                "y": 24.5,
-                "text": "Pilih RK dari daftar RK anggota."
-            },
-            {
-                "n": 2,
-                "x": 34,
-                "y": 30.7,
-                "text": "Tulis kegiatan, atau ambil dari List Aktivitas."
-            },
-            {
-                "n": 3,
-                "x": 34,
-                "y": 49,
-                "text": "Tanggal di masa depan boleh diisi. Di form kipApp, ini ditolak."
-            },
-            {
-                "n": 4,
-                "x": 34,
-                "y": 54.5,
-                "text": "Target, satuan, dan capaian berupa angka."
-            },
-            {
-                "n": 5,
-                "x": 49.2,
-                "y": 63,
-                "text": "Bukti dukung berupa link."
-            },
-            {
-                "n": 6,
-                "x": 58.3,
-                "y": 86,
-                "text": "Simpan. Kinetik mengirimnya ke kipApp pada tanggal mulai, otomatis atau lewat tombol Kirim ke kipApp."
-            }
+            {"n": 1, "x": 35.5, "y": 28.5, "text": "Pilih projek dulu. RK yang tampil hanya RK projek itu."},
+            {"n": 2, "x": 35.5, "y": 36.5, "text": "Pilih RK. Setelah dipilih, projek terkunci; tombol Ganti RK membukanya lagi."},
+            {"n": 3, "x": 35.5, "y": 48, "text": "Tulis kegiatan, atau ambil dari List Aktivitas."},
+            {"n": 4, "x": 35.5, "y": 58, "text": "Tanggal di masa depan boleh diisi. Di form kipApp, ini ditolak."},
+            {"n": 5, "x": 35.5, "y": 68, "text": "Target dan satuan berupa angka. Progres, capaian dan bukti diisi nanti di form Realisasi."},
+            {"n": 6, "x": 62, "y": 83, "text": "Simpan. Kinetik mengirimnya ke kipApp pada tanggal mulai, otomatis atau lewat tombol Kirim ke kipApp."}
         ]
     },
+
     "pj-week-detail": {
         "src": "/shots/pj-week-detail.png",
         "steps": [
@@ -295,51 +267,18 @@ export const shots: Record<string, ShotDef> = {
     },
     "member-capaian": {
         "src": "/shots/member-capaian.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {
-                "n": 1,
-                "x": 34.2,
-                "y": 29.7,
-                "text": "Detail kegiatan: tanggal, target, progres, dan status."
-            },
-            {
-                "n": 2,
-                "x": 34.2,
-                "y": 49.2,
-                "text": "Capaian berupa angka, supaya bisa dijumlahkan."
-            },
-            {
-                "n": 3,
-                "x": 49,
-                "y": 49.2,
-                "text": "Progres (%) diperbarui sampai 100."
-            },
-            {
-                "n": 4,
-                "x": 34.2,
-                "y": 57.4,
-                "text": "Uraian capaian: teks yang ikut dikirim ke kipApp."
-            },
-            {
-                "n": 5,
-                "x": 34.2,
-                "y": 68.1,
-                "text": "Bukti dukung berupa link."
-            },
-            {
-                "n": 6,
-                "x": 47,
-                "y": 78.2,
-                "text": "Copy kegiatan: pakai kegiatan ini sebagai dasar kegiatan baru."
-            },
-            {
-                "n": 7,
-                "x": 54.9,
-                "y": 78.2,
-                "text": "Simpan capaian."
-            }
+            {"n": 1, "x": 35.5, "y": 22, "text": "Detail kegiatan: tanggal, target, capaian, dan status."},
+            {"n": 2, "x": 35.5, "y": 50.5, "text": "Realisasi: capaian berupa angka, supaya bisa dijumlahkan."},
+            {"n": 3, "x": 51, "y": 50.5, "text": "Progres (%) terhitung otomatis dari capaian dibagi target. Bisa diubah."},
+            {"n": 4, "x": 35.5, "y": 61, "text": "Bukti dukung berupa link."},
+            {"n": 5, "x": 35.5, "y": 71, "text": "Uraian: teks yang ikut dikirim ke kipApp."},
+            {"n": 6, "x": 50, "y": 79, "text": "Salin kegiatan: pakai kegiatan ini sebagai dasar kegiatan baru."},
+            {"n": 7, "x": 60, "y": 79, "text": "Simpan realisasi."}
         ]
     },
+
     "pj-months": {
         "src": "/shots/pj-weekly.png",
         "steps": [

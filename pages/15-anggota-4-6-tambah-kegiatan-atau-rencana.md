@@ -6,10 +6,10 @@
 
 <!--
 Ini form untuk menambah kegiatan atau rencana. Bentuknya sengaja dibuat mirip form kipApp, supaya anggota tidak perlu belajar ulang.
-[click] Pertama, anggota memilih RK dari daftar RK miliknya.
-[click] Kedua, menulis kegiatan, atau mengambilnya dari List Aktivitas.
-[click] Ketiga, ini yang penting: tanggal di masa depan boleh diisi. Di form kipApp, ini ditolak, jadi di sinilah perencanaan jadi mungkin.
-[click] Keempat, target, satuan, dan capaian berupa angka, jadi bisa dijumlahkan.
-[click] Kelima, bukti dukung berupa link.
+[click] Pertama, anggota memilih projek. Daftar RK langsung menyempit ke RK projek itu.
+[click] Kedua, memilih RK. Setelah dipilih, projek terkunci supaya tidak salah pasangan. Tombol Ganti RK membukanya lagi.
+[click] Ketiga, menulis kegiatan, atau mengambilnya dari List Aktivitas.
+[click] Keempat, ini yang penting: tanggal di masa depan boleh diisi. Di form kipApp, ini ditolak, jadi di sinilah perencanaan jadi mungkin.
+[click] Kelima, target dan satuan berupa angka, jadi bisa dijumlahkan. Progres, capaian dan bukti dukung tidak diisi di sini. Semuanya nanti di form Realisasi.
 [click] Keenam, simpan. Setelah itu Kinetik mengirimnya ke kipApp pada tanggal mulai, otomatis. Alurnya ada di slide Kinetik ke kipApp.
 -->
