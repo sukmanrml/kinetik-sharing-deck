@@ -19,5 +19,5 @@ Kenapa tidak langsung minta akses resmi saja? Ada dua hambatan, lalu satu kekhaw
 [click] Karena itu kami memakai workaround. Saat ini SSO lama masih bisa dimasuki otomatis, jadi tim tidak menunggu berbulan-bulan.
 [click] Kekhawatirannya: pada Desember 2026 semua aplikasi BPS pindah ke SSO baru, yang memakai captcha dan passkey. Sistem seperti Kinetik tidak bisa lagi masuk sendiri.
 [click] Kalau tidak ada tindakan, cara ini berhenti. Setiap orang yang memakai Kinetik harus copy token sendiri manual, setiap hari. Itu lebih berat daripada cara pertama, yang dulu hanya dikerjakan oleh admin.
-[click] Jalan keluarnya adalah akses resmi: Kinetik didaftarkan sebagai client SSO. Karena itu kami butuh dukungan Bapak dan Ibu.
+[click] Jalan keluarnya adalah akses resmi: Kinetik didaftarkan sebagai client SSO. Itu urusan pengajuan ke Kantor Pusat, dan kami belum tahu hasilnya. Pelajaran untuk tim lain: sistem yang bergantung pada pihak lain butuh rencana cadangan sejak awal.
 -->
