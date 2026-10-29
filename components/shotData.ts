@@ -119,6 +119,16 @@ export const shots: Record<string, ShotDef> = {
             {"n": 4, "x": 96, "y": 49, "text": "SKP tahun ini yang belum selesai dinilai."}
         ]
     },
+    "impor-kegiatan": {
+        "src": "/shots/impor-kegiatan.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
+        "steps": [
+            {"n": 1, "x": 33, "y": 20, "text": "Pilih minggu untuk baris tanpa tanggal, lalu pilih file Excel."},
+            {"n": 2, "x": 28, "y": 31, "text": "Ringkasan: baris siap, perlu pilih RK, dan tidak bisa diimpor."},
+            {"n": 3, "x": 83, "y": 41, "text": "Pilih RK bila Kinetik tidak bisa menentukannya sendiri."},
+            {"n": 4, "x": 94, "y": 31, "text": "Impor. Kegiatan masuk sebagai rencana."}
+        ]
+    },
     "review-bersama": {
         "src": "/shots/review-bersama.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
