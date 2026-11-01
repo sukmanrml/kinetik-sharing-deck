@@ -6,8 +6,8 @@
 
 <!--
 Halaman baru untuk melihat rapat mingguan dan bulanan tiap tim dalam satu layar. Datanya contoh.
-[click] Tiga angka merangkum bulan itu: rekap mingguan terkunci, rekap bulanan terkunci, dan tim yang melampirkan bukti rapat.
-[click] Tiap kolom satu minggu. Terkunci berarti PJ sudah menyelesaikan rekap minggu itu, dan angka kecil di sampingnya adalah bukti rapat yang dilampirkan.
-[click] Ditulis berarti sudah ada parafrase tetapi belum dikunci. Belum berarti belum ada apa-apa. Minggu yang belum terjadi dibiarkan kosong.
+[click] Tiga angka merangkum bulan itu: rekap mingguan lengkap, rekap bulanan lengkap, dan tim yang melampirkan bukti rapat.
+[click] Tiap kolom satu minggu. Lengkap berarti semua RK yang punya kegiatan sudah ada parafrasenya, dan angka kecil di sampingnya adalah bukti rapat yang dilampirkan.
+[click] Sebagian berarti baru sebagian RK yang ada parafrasenya. Belum berarti belum ada apa-apa. Minggu yang belum terjadi dibiarkan kosong.
 [click] Kolom terakhir adalah rapat bulanan tim itu. Klik satu status untuk membuka rekap timnya.
 -->

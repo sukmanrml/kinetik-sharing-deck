@@ -4,7 +4,7 @@ const props = defineProps<{ clicks: number }>();
 
 const days = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
 const nodes = [
-    { n: 1, tag: 'Senin pagi', title: 'Evaluasi minggu lalu', text: 'Isi capaian dan bukti. PJ tulis parafrase per RK, lalu kunci rekap.' },
+    { n: 1, tag: 'Senin pagi', title: 'Evaluasi minggu lalu', text: 'Isi capaian dan bukti. PJ tulis parafrase per RK.' },
     { n: 2, tag: 'Senin pagi, sebelum 09.00', title: 'Rencana minggu ini', text: 'Tiap anggota isi rencana kegiatan minggu ini di Rekap Mingguan.' },
     { n: 3, tag: 'Selasa sampai Minggu', title: 'Kerja dan catat sekali', text: 'Catat di kipApp atau Kinetik. Auto sync, tidak ada copy-paste.' },
     { n: 4, tag: 'Setelah 09.00', title: 'Pimpinan cek', text: 'Kepatuhan Rencana dan panel Perlu perhatian: siapa yang belum punya rencana.' },

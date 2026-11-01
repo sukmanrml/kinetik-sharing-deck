@@ -63,33 +63,15 @@ export const shots: Record<string, ShotDef> = {
     },
     "pj-paraphrase": {
         "src": "/shots/pj-paraphrase.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {
-                "n": 1,
-                "x": 19.5,
-                "y": 42.5,
-                "text": "Kontribusi anggota di kiri. PJ membaca, lalu bisa mengambil kalimatnya."
-            },
-            {
-                "n": 2,
-                "x": 50.8,
-                "y": 42.5,
-                "text": "Parafrase PJ di kanan. Ditulis sendiri, tidak ada isi otomatis."
-            },
-            {
-                "n": 3,
-                "x": 50.8,
-                "y": 54,
-                "text": "Target, satuan, dan capaian RK berupa angka."
-            },
-            {
-                "n": 4,
-                "x": 50.8,
-                "y": 63,
-                "text": "Simpan, atau Simpan dan kunci supaya rekap tidak berubah lagi."
-            }
+            {"n": 1, "x": 35.1, "y": 52, "text": "Kontribusi anggota di kiri. PJ membaca, lalu bisa mengambil kalimatnya."},
+            {"n": 2, "x": 65.5, "y": 47.6, "text": "Parafrase PJ di kanan. Ditulis sendiri, tidak ada isi otomatis."},
+            {"n": 3, "x": 65.5, "y": 55.7, "text": "Target, satuan, dan capaian RK berupa angka."},
+            {"n": 4, "x": 54.2, "y": 64.7, "text": "Simpan. Tidak ada kunci: parafrase boleh diubah lagi kapan saja."}
         ]
     },
+
     "head-compliance": {
         "src": "/shots/head-compliance.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
@@ -133,22 +115,24 @@ export const shots: Record<string, ShotDef> = {
         "src": "/shots/review-bersama.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {"n": 1, "x": 26.6, "y": 17.9, "text": "Mingguan, bulanan, atau triwulanan, dengan panah untuk pindah periode."},
-            {"n": 2, "x": 18.8, "y": 27.8, "text": "Ringkasan kantor dalam satu deret angka."},
-            {"n": 3, "x": 43.4, "y": 41.4, "text": "Klik Capaian untuk mengurutkan dari tertinggi atau terendah."},
-            {"n": 4, "x": 85.5, "y": 46.4, "text": "Status capaian. Gembok berarti rekap sudah dikunci PJ."}
+            {"n": 1, "x": 27, "y": 17.9, "text": "Pindah bulan dengan panah. Review Bersama untuk pimpinan selalu per bulan."},
+            {"n": 2, "x": 20, "y": 29, "text": "Ringkasan kantor dalam satu deret angka."},
+            {"n": 3, "x": 49.2, "y": 41.4, "text": "Klik Capaian untuk mengurutkan dari tertinggi atau terendah."},
+            {"n": 4, "x": 87.7, "y": 46.6, "text": "Status capaian: Tercapai, Progres, Rendah, atau Belum ada data."}
         ]
     },
+
     "ringkasan-rapat": {
         "src": "/shots/ringkasan-rapat.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {"n": 1, "x": 31.3, "y": 21.1, "text": "Rekap mingguan terkunci, rekap bulanan terkunci, dan tim yang punya bukti rapat."},
-            {"n": 2, "x": 51.9, "y": 33.1, "text": "Terkunci: PJ sudah menyelesaikan rekap. Angka kecil adalah jumlah bukti rapat."},
-            {"n": 3, "x": 62.1, "y": 33.2, "text": "Ditulis: ada parafrase tetapi belum dikunci."},
-            {"n": 4, "x": 93, "y": 33.2, "text": "Rapat bulanan tiap tim."}
+            {"n": 1, "x": 31.3, "y": 21.1, "text": "Rekap mingguan lengkap, rekap bulanan lengkap, dan tim yang punya bukti rapat."},
+            {"n": 2, "x": 51.4, "y": 33.2, "text": "Lengkap: semua RK yang punya kegiatan sudah ada parafrasenya. Angka kecil adalah jumlah bukti rapat."},
+            {"n": 3, "x": 71.7, "y": 33.2, "text": "Sebagian: baru sebagian RK yang ada parafrasenya."},
+            {"n": 4, "x": 92.9, "y": 33.2, "text": "Rapat bulanan tiap tim."}
         ]
     },
+
     "head-beranda": {
         "src": "/shots/head-beranda.png",
         "url": "kinetik.bpssulteng.id (contoh data)",
@@ -290,34 +274,16 @@ export const shots: Record<string, ShotDef> = {
     },
 
     "pj-months": {
-        "src": "/shots/pj-weekly.png",
+        "src": "/shots/pj-months.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {
-                "n": 1,
-                "x": 17.2,
-                "y": 18.5,
-                "text": "Pilih tim yang dipimpin."
-            },
-            {
-                "n": 2,
-                "x": 38.4,
-                "y": 26.2,
-                "text": "Jumlah kegiatan tim di tiap bulan."
-            },
-            {
-                "n": 3,
-                "x": 49,
-                "y": 26.2,
-                "text": "RK sudah ditulis dan Terkunci: sejauh mana rekap sudah dikerjakan."
-            },
-            {
-                "n": 4,
-                "x": 77,
-                "y": 30.7,
-                "text": "Status bulan, misalnya Belum ditulis. Klik satu bulan untuk lanjut."
-            }
+            {"n": 1, "x": 26.2, "y": 13.3, "text": "Pilih tim yang dipimpin."},
+            {"n": 2, "x": 40, "y": 20.9, "text": "Jumlah kegiatan tim di tiap bulan."},
+            {"n": 3, "x": 57, "y": 20.9, "text": "RK dengan kegiatan dan RK sudah ditulis: selisihnya adalah RK yang masih perlu parafrase."},
+            {"n": 4, "x": 83.8, "y": 62.2, "text": "Status bulan: Belum ada kegiatan, Belum ditulis, Sedang ditulis, atau Selesai ditulis. Klik satu bulan untuk lanjut."}
         ]
     },
+
     "pj-weeks": {
         "src": "/shots/pj-weeks.png",
         "steps": [
@@ -337,51 +303,22 @@ export const shots: Record<string, ShotDef> = {
                 "n": 3,
                 "x": 52.2,
                 "y": 26,
-                "text": "Kolom RK sudah ditulis dan Terkunci sama seperti daftar bulan, sekarang per minggu."
+                "text": "Kolom RK dengan kegiatan dan RK sudah ditulis sama seperti daftar bulan, sekarang per minggu."
             }
         ]
     },
     "pj-panel": {
         "src": "/shots/pj-panel.png",
+        "url": "kinetik.bpssulteng.id (contoh data)",
         "steps": [
-            {
-                "n": 1,
-                "x": 17.2,
-                "y": 23.1,
-                "text": "Kelengkapan anggota: berapa anggota yang sudah mengisi capaian."
-            },
-            {
-                "n": 2,
-                "x": 36.8,
-                "y": 30.4,
-                "text": "Belum mengisi: siapa yang masih perlu diingatkan."
-            },
-            {
-                "n": 3,
-                "x": 25.5,
-                "y": 50.7,
-                "text": "Pilih satu RK. Parafrase ditulis per RK."
-            },
-            {
-                "n": 4,
-                "x": 89.5,
-                "y": 57.9,
-                "text": "Tombol Isi parafrase. Kalau sudah ada isinya, tombolnya jadi Ubah parafrase."
-            },
-            {
-                "n": 5,
-                "x": 84.5,
-                "y": 63.9,
-                "text": "Target RK, Capaian RK, dan status kunci."
-            },
-            {
-                "n": 6,
-                "x": 16.3,
-                "y": 84.4,
-                "text": "Bukti Dukung Rapat: tambah bukti untuk minggu ini."
-            }
+            {"n": 1, "x": 18.6, "y": 56.2, "text": "Kelengkapan anggota: berapa anggota yang sudah mengisi capaian."},
+            {"n": 2, "x": 27.4, "y": 64.1, "text": "Pilih satu RK. Parafrase ditulis per RK."},
+            {"n": 3, "x": 91.6, "y": 71.6, "text": "Tombol Isi parafrase. Kalau sudah ada isinya, tombolnya jadi Ubah parafrase."},
+            {"n": 4, "x": 86.2, "y": 79.7, "text": "Target RK, Capaian RK, dan status Parafrase (Belum atau Sudah ditulis)."},
+            {"n": 5, "x": 18.6, "y": 97, "text": "Bukti Dukung Rapat: tambah bukti untuk minggu ini."}
         ]
     },
+
     "member-months": {
         "src": "/shots/member-months.png",
         "steps": [

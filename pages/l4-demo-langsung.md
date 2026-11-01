@@ -4,7 +4,7 @@
 
 <div class="grid2 compact">
 <div v-click class="card"><b>Anggota.</b> Beranda, buat rencana, lalu isi form Realisasi (progres terhitung otomatis).</div>
-<div v-click class="card"><b>PJ.</b> Buka rekap tim, lihat parafrase, kunci rekap.</div>
+<div v-click class="card"><b>PJ.</b> Buka rekap tim, tulis parafrase per RK, tambah bukti rapat.</div>
 <div v-click class="card"><b>Pimpinan.</b> Beranda, Monitoring, Review Bersama, FRA bulanan.</div>
 <div v-click class="card"><b>Admin.</b> Saklar fitur, lihat sebagai, jejak audit.</div>
 </div>

@@ -123,7 +123,7 @@ src: ./pages/21-pj-4-5-dari-mana-parafrase-diisi.md
 ---
 
 ---
-src: ./pages/22-pj-5-5-popup-parafrase-dan-kunci.md
+src: ./pages/22-pj-5-5-popup-parafrase.md
 ---
 
 ---

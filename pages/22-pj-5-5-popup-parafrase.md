@@ -1,4 +1,4 @@
-# PJ (4/4): popup parafrase dan kunci
+# PJ (4/4): popup parafrase
 
 <span v-click="1"></span><span v-click="2"></span><span v-click="3"></span><span v-click="4"></span>
 
@@ -9,5 +9,5 @@ Menekan tombol Isi parafrase tadi membuka popup ini. PJ menulis satu parafrase u
 [click] Pertama, di kiri ada kontribusi tiap anggota. PJ membaca, lalu bisa mengambil kalimatnya.
 [click] Kedua, di kanan PJ menulis parafrase sendiri. Tidak ada isi otomatis, karena ini memang butuh penilaian PJ.
 [click] Ketiga, target, satuan, dan capaian untuk RK itu, berupa angka.
-[click] Keempat, simpan, atau simpan dan kunci supaya rekap tidak berubah lagi.
+[click] Keempat, simpan. Tidak ada kunci: parafrase boleh diubah lagi kapan saja. Teksnya hanya terlihat oleh PJ, PIC RK, dan admin.
 -->

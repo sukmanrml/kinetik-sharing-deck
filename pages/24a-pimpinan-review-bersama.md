@@ -7,7 +7,7 @@
 <!--
 Review Bersama sudah disederhanakan: lebih sedikit tulisan, ringkasan dalam satu deret angka, dan tabel yang bisa diurutkan. PJ juga punya halaman yang sama untuk tim yang ia ikuti. Datanya contoh.
 [click] Pilih mingguan, bulanan, atau triwulanan, lalu pindah periode dengan panah.
-[click] Ringkasan kantor: tim yang punya rekap, rata-rata capaian, rekap yang dikunci PJ, dan baris yang dikonfirmasi.
+[click] Ringkasan kantor: tim yang punya rekap, rata-rata capaian, dan RK yang sudah ada parafrasenya. Untuk pimpinan, Review Bersama selalu per bulan.
 [click] Klik judul kolom Capaian untuk mengurutkan: tertinggi dulu, terendah dulu, atau urutan awal. Tim tanpa data selalu di bawah.
 [click] Status capaian tiap tim, dan gembok bila PJ sudah mengunci rekapnya.
 -->
