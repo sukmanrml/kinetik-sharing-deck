@@ -255,10 +255,6 @@ src: ./pages/e5-deploy-tanpa-ssh.md
 ---
 
 ---
-src: ./pages/e6-peran-ai.md
----
-
----
 src: ./pages/s06-bagian-4.md
 ---
 
