@@ -59,6 +59,12 @@ src: ./pages/10-berapa-langkah-yang-dipangkas.md
 ---
 src: ./pages/11-ritual-baru-tiap-senin-pagi.md
 ---
+
+---
+src: ./pages/11b-tiga-peran.md
+---
+
+---
 src: ./pages/11a-anggota-beranda.md
 ---
 
@@ -210,6 +216,10 @@ src: ./pages/36-tantangan-2-jalur-resmi-butuh-domain-bps.md
 
 ---
 src: ./pages/38-tantangan-3-data-kipapp-tidak-rapi.md
+---
+
+---
+src: ./pages/38a-tantangan-peta-data-kipapp.md
 ---
 
 ---
