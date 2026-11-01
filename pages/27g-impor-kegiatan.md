@@ -9,5 +9,5 @@ Tim yang masih memakai file Excel Kegiatan Mingguan Anggota tidak perlu mengetik
 [click] Pertama, pilih minggu untuk baris yang tidak punya tanggal, lalu pilih file.
 [click] Kedua, Kinetik membaca file di browser, satu sheet per tim, dan mencocokkan pegawai, projek, dan RK. Ringkasan di atas tabel menunjukkan baris yang siap, yang perlu pilih RK, dan yang tidak bisa diimpor.
 [click] Ketiga, bila RK tidak bisa ditentukan sendiri, admin memilihnya dari daftar di baris itu.
-[click] Keempat, impor. Kegiatan masuk sebagai rencana, dan baris yang sudah ada dilewati.
+[click] Keempat, impor. Kegiatan masuk ke daftar pegawai sebagai rencana dan tidak dikirim ke kipApp. Pegawai mengirimnya sendiri. Baris yang sudah ada dilewati.
 -->
