@@ -19,7 +19,7 @@
 <span class="small">Inilah RK yang tersimpan di Kinetik.</span></div>
 </div>
 
-<div v-click style="text-align:center;margin:.35rem 0;font-size:.85rem"><span class="card" style="display:inline-block;padding:.2rem .8rem;border:2px dashed #d97706"><code>rkid</code> &nbsp;≟&nbsp; <code>rkproyekid</code> &nbsp;— belum ada kolom penghubung yang kami temukan, jadi dipasangkan lewat <b>teks RK</b></span></div>
+<div v-click style="text-align:center;margin:.35rem 0;font-size:.85rem"><span class="card" style="display:inline-block;padding:.2rem .8rem;border:2px dashed #d97706"><code>rkid</code> &nbsp;≟&nbsp; <code>rkproyekid</code> &nbsp;— tidak ada kolom penghubung. Baris skp/rk hanya membawa <code>timkerjaid</code> dan teks RK atasan, jadi dipasangkan lewat <b>teks RK</b></span></div>
 
 <div v-click style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem;font-size:.85rem;text-align:center">
 <div class="card" style="padding:.3rem"><b>1.006</b> RK<br><span class="small">belum punya projek</span></div>
@@ -27,13 +27,13 @@
 <div class="card warn" style="padding:.3rem"><b>469</b> RK<br><span class="small">tidak ada di projek mana pun di kipApp (mis. RK tambahan), atau teksnya ambigu</span></div>
 </div>
 
-<div v-click class="card" style="margin-top:.45rem;padding:.3rem .7rem;font-size:.82rem"><b>Risikonya:</b> teks bisa diubah di satu tempat saja, atau sama di dua projek. Bila kipApp menyediakan ID penghubung, pemasangan jadi pasti dan tidak lagi bergantung pada teks.</div>
+<div v-click class="card" style="margin-top:.45rem;padding:.3rem .7rem;font-size:.82rem"><b>Risikonya:</b> teks bisa diubah di satu tempat saja, atau sama di dua projek. kipApp sendiri tidak membutuhkannya: kegiatan di kipApp menempel ke RK SKP dan tim, bukan ke projek. Kinetik yang butuh projek.</div>
 
 <!--
 Ini sebabnya sebagian RK tampil tanpa projek. kipApp punya ID untuk tim, projek, dan RK.
 [click] Dari sisi projek, ID-nya jelas: tim, projek, lalu RK Anggota, satu baris per anggota per projek.
 [click] Tetapi RK yang tersimpan di Kinetik datang dari sisi SKP pegawai dan kegiatan. Di sana RK punya ID lain.
-[click] Dalam data yang kami baca, kami belum menemukan kolom yang menghubungkan kedua ID itu. Jadi kami memasangkannya lewat teks RK.
+[click] Kami periksa baris SKP asli di kipApp. Isinya rkid, tim, dan teks RK atasan, tetapi tidak ada proyekid atau rkproyekid. Jadi tidak ada kolom yang menghubungkan kedua ID itu, dan kami memasangkannya lewat teks RK.
 [click] Hasilnya: dari 1.006 RK tanpa projek, 537 berhasil dipasangkan lewat teks yang sama. 469 sisanya tidak ada di projek mana pun di kipApp, misalnya RK tambahan, atau teksnya muncul di dua projek sehingga ambigu.
-[click] Risikonya: teks bisa berubah di satu tempat saja. Langkah berikutnya adalah memeriksa apakah data SKP kipApp menyimpan ID penghubung. Kalau ada, pemasangan jadi pasti.
+[click] Risikonya: teks bisa berubah di satu tempat saja. kipApp sendiri tidak terganggu, karena kegiatan di kipApp menempel ke RK SKP dan tim, bukan ke projek. Hanya Kinetik yang butuh projek, jadi pemasangan ini tugas kami.
 -->
