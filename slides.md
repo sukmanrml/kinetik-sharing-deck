@@ -183,6 +183,11 @@ src: ./pages/27g-impor-kegiatan.md
 ---
 
 ---
+src: ./pages/b1-integritas-laporan-arsip.md
+---
+
+
+---
 src: ./pages/28-yang-sudah-dikerjakan-kipapp.md
 ---
 
@@ -200,6 +205,30 @@ src: ./pages/s05-bagian-3.md
 
 ---
 src: ./pages/e1-arsitektur.md
+---
+
+---
+src: ./pages/a1-konteks-sistem.md
+---
+
+---
+src: ./pages/a2-infrastruktur.md
+---
+
+---
+src: ./pages/a3-alur-data.md
+---
+
+---
+src: ./pages/a4-model-data.md
+---
+
+---
+src: ./pages/a5-siklus-token.md
+---
+
+---
+src: ./pages/a6-arsitektur-target.md
 ---
 
 ---
@@ -276,6 +305,10 @@ src: ./pages/40-status-saat-ini.md
 
 ---
 src: ./pages/41-langkah-berikutnya-rencana.md
+---
+
+---
+src: ./pages/a7-rencana-aksi.md
 ---
 
 ---
