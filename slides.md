@@ -223,6 +223,10 @@ src: ./pages/38a-tantangan-peta-data-kipapp.md
 ---
 
 ---
+src: ./pages/38b-tantangan-id-rk-projek.md
+---
+
+---
 src: ./pages/27c-simulasi-sinkronisasi-anggota.md
 ---
 
