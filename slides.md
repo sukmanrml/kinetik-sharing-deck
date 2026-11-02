@@ -232,6 +232,10 @@ src: ./pages/a6-arsitektur-target.md
 ---
 
 ---
+src: ./pages/a8-jalan-masuk-ekinerja.md
+---
+
+---
 src: ./pages/32-tantangan-1-tidak-ada-pintu-resmi-ke-kip.md
 ---
 
