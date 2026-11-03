@@ -1,39 +1,35 @@
-# Mengapa RK sulit dipasangkan ke projek
+# Mengapa RK sulit dipasangkan ke projek, dan jalan yang ketemu
 
-<p class="lead" style="margin:.1rem 0 .4rem">kipApp punya ID untuk tim, projek, dan RK. Tetapi dua daftar RK yang kami baca tidak memakai ID yang sama.</p>
+<p class="lead" style="margin:.1rem 0 .4rem">Daftar RK sisi SKP dan sisi projek memakai ID berbeda. ID yang sama ternyata ada di jalur ketiga.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem .9rem;font-size:.78rem;align-items:start">
 
 <div class="card ok" style="padding:.35rem .6rem"><b>Sisi projek</b> (rk/proyek)
 <div style="display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;margin-top:.3rem">
-<span class="card" style="padding:.15rem .4rem">Tim<br><code>timkerjaid</code></span><span>→</span>
 <span class="card" style="padding:.15rem .4rem">Projek<br><code>proyekid</code></span><span>→</span>
-<span class="card" style="padding:.15rem .4rem">RK Anggota<br><code>rkproyekid</code></span></div>
-<span class="small">ID-nya jelas: satu baris per anggota per projek.</span></div>
+<span class="card" style="padding:.15rem .4rem">RK Anggota<br><code>rkproyekid</code> + pegawai</span></div></div>
 
-<div v-click class="card warn" style="padding:.35rem .6rem"><b>Sisi SKP dan kegiatan</b> (skp/rk)
+<div v-click class="card warn" style="padding:.35rem .6rem"><b>Sisi SKP</b> (skp/rk)
 <div style="display:flex;align-items:center;gap:.3rem;flex-wrap:wrap;margin-top:.3rem">
-<span class="card" style="padding:.15rem .4rem">SKP pegawai</span><span>→</span>
 <span class="card" style="padding:.15rem .4rem">RK SKP<br><code>rkid</code></span><span>→</span>
 <span class="card" style="padding:.15rem .4rem">Kegiatan</span></div>
-<span class="small">Inilah RK yang tersimpan di Kinetik.</span></div>
+<span class="small">Tidak membawa ID projek.</span></div>
 </div>
 
-<div v-click style="text-align:center;margin:.35rem 0;font-size:.85rem"><span class="card" style="display:inline-block;padding:.2rem .8rem;border:2px dashed #d97706"><code>rkid</code> &nbsp;≟&nbsp; <code>rkproyekid</code> &nbsp;— tidak ada kolom penghubung. Baris skp/rk hanya membawa <code>timkerjaid</code> dan teks RK atasan, jadi dipasangkan lewat <b>teks RK</b></span></div>
+<div v-click class="card ok" style="margin:.4rem 0;padding:.3rem .7rem;font-size:.82rem"><b>Jalur ketiga: <code>skp/rk/copy</code></b>, daftar RK yang disalin pegawai ke SKP-nya. Isinya memakai <code>rkproyekid</code> yang sama dengan sisi projek (14 dari 14 cocok pada pegawai uji). Jadi RK tiap pegawai bisa dikaitkan ke projeknya dengan pasti, bukan lewat tebakan teks gabungan.</div>
 
 <div v-click style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem;font-size:.85rem;text-align:center">
-<div class="card" style="padding:.3rem"><b>1.006</b> RK<br><span class="small">belum punya projek</span></div>
-<div class="card ok" style="padding:.3rem"><b>537</b> RK<br><span class="small">dipasangkan lewat teks yang sama</span></div>
-<div class="card warn" style="padding:.3rem"><b>469</b> RK<br><span class="small">tidak ada di projek mana pun di kipApp (mis. RK tambahan), atau teksnya ambigu</span></div>
+<div class="card" style="padding:.3rem"><b>1.247</b> RK pegawai<br><span class="small">tadinya 0 yang punya projek</span></div>
+<div class="card ok" style="padding:.3rem"><b>1.122</b> RK<br><span class="small">kini terhubung pasti ke projek</span></div>
+<div class="card warn" style="padding:.3rem"><b>125</b> RK<br><span class="small">tidak berada di projek mana pun, atau teksnya tidak cocok</span></div>
 </div>
 
-<div v-click class="card" style="margin-top:.45rem;padding:.3rem .7rem;font-size:.82rem"><b>Risikonya:</b> teks bisa diubah di satu tempat saja, atau sama di dua projek. kipApp sendiri tidak membutuhkannya: kegiatan di kipApp menempel ke RK SKP dan tim, bukan ke projek. Kinetik yang butuh projek.</div>
+<div v-click class="card" style="margin-top:.45rem;padding:.3rem .7rem;font-size:.82rem"><b>Catatan:</b> kipApp sendiri tidak butuh hubungan ini (kegiatan menempel ke RK SKP), dan e-Kinerja tidak punya projek. Pemasangan ini hanya untuk Kinetik selama kipApp dipakai.</div>
 
 <!--
-Ini sebabnya sebagian RK tampil tanpa projek. kipApp punya ID untuk tim, projek, dan RK.
-[click] Dari sisi projek, ID-nya jelas: tim, projek, lalu RK Anggota, satu baris per anggota per projek.
-[click] Tetapi RK yang tersimpan di Kinetik datang dari sisi SKP pegawai dan kegiatan. Di sana RK punya ID lain.
-[click] Kami periksa baris SKP asli di kipApp. Isinya rkid, tim, dan teks RK atasan, tetapi tidak ada proyekid atau rkproyekid. Jadi tidak ada kolom yang menghubungkan kedua ID itu, dan kami memasangkannya lewat teks RK.
-[click] Hasilnya: dari 1.006 RK tanpa projek, 537 berhasil dipasangkan lewat teks yang sama. 469 sisanya tidak ada di projek mana pun di kipApp, misalnya RK tambahan, atau teksnya muncul di dua projek sehingga ambigu.
-[click] Risikonya: teks bisa berubah di satu tempat saja. kipApp sendiri tidak terganggu, karena kegiatan di kipApp menempel ke RK SKP dan tim, bukan ke projek. Hanya Kinetik yang butuh projek, jadi pemasangan ini tugas kami.
+Ini penemuan terpenting. Daftar RK di sisi projek memakai rkproyekid, sedangkan RK di SKP pegawai memakai rkid yang lain. Kami sempat mengira tidak ada kolom penghubung.
+[click] RK di sisi SKP tidak membawa ID projek.
+[click] Tetapi ada jalur ketiga: daftar salin RK ke SKP, yaitu skp/rk/copy. ID di dalamnya sama dengan rkproyekid di sisi projek. Kami uji pada satu pegawai: 14 dari 14 cocok. Artinya RK tiap pegawai punya projek yang pasti.
+[click] Hasilnya di produksi: dari 1.247 RK pegawai, tadinya tidak satu pun punya projek. Sekarang 1.122 terhubung pasti. 125 sisanya memang tidak berada di projek mana pun di kipApp, atau teksnya tidak cocok.
+[click] kipApp sendiri tidak membutuhkan hubungan ini, karena kegiatan menempel ke RK SKP. e-Kinerja malah tidak punya projek. Jadi ini hanya untuk Kinetik selama kipApp masih dipakai.
 -->
