@@ -39,7 +39,7 @@ const lanes: Lane[] = [
             { label: 'Bertanya siapa yang belum mengisi', kind: 'cut' },
             { label: 'Membuka lembar Excel tiap tim', to: 'Membaca rekap tim di layar', kind: 'changed' },
             { label: 'Meminta PJ memeriksa lewat pesan', to: 'PJ memeriksa sendiri di Review Bersama', kind: 'changed' },
-            { label: 'Menunggu bahan FRA disusun', kind: 'cut' },
+            { label: 'Menunggu bahan FRA disusun', to: 'Membuka Kertas Kerja FRA (X dan Y diisi PJ tim pemilik)', kind: 'changed' },
         ],
         added: [],
     },
@@ -87,7 +87,11 @@ const active = (index: number) => props.clicks >= index + 1;
             <span class="big-n ok">{{ totals.after }}</span>
             <span class="cutline">dipangkas <b>{{ totals.cut }}</b> langkah ({{ totals.percent }} persen)</span>
         </div>
-        <p class="note">Dihitung dari langkah di SOP, bukan dari waktu.</p>
+        <p class="note">
+            Sumber: kotak-kotak di atas, satu kotak satu langkah di SOP lama. Dicoret = hilang, biru = berubah bentuk, oranye = langkah baru.
+            <template v-for="(l, i) in lanes" :key="l.role">{{ i ? '; ' : ' ' }}{{ l.role }} {{ count(l).before }} dikurangi {{ l.old.filter((x) => x.kind === 'cut').length }} dicoret<template v-if="l.added.length"> ditambah {{ l.added.length }} baru</template> = {{ count(l).after }}</template>.
+            Ini hitungan langkah, bukan waktu.
+        </p>
     </div>
 </template>
 

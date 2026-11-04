@@ -1,9 +1,9 @@
 # Dari spreadsheet ke aplikasi: cerita Kinetik
 
-Deck Slidev (Bahasa Indonesia, 16:9, 68 slide, sekitar 90 menit) untuk Insight Series BPS Provinsi Sulawesi Tengah.
+Deck Slidev (Bahasa Indonesia, 16:9, 68 slide, sekitar 90 menit) untuk Sharing Session BPS Provinsi Sulawesi Tengah.
 Penyaji: Sukma Nirmala Dewi, S.Tr.Stat., Tim Metodologi dan Teknologi Informasi (MTI).
 
-Bagian: 1 masalah dan gagasan (15 menit), 2 tur produk dengan demo (30), 3 di balik layar (25), 4 pelajaran (10), tanya jawab (10).
+Bagian: 1 masalah dan gagasan (15 menit), 2 walkthrough fitur dengan demo (30), 3 di balik layar (25), 4 evaluasi dan rencana tindak lanjut (10), tanya jawab (10).
 
 ## Perintah
 

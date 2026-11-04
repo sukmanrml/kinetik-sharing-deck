@@ -5,7 +5,7 @@ class: text-center
 
 <p class="small">Bagian 4 dari 4</p>
 
-# Pelajaran dan langkah berikutnya
+# Evaluasi dan rencana tindak lanjut
 
 <p class="lead">Yang berhasil, yang salah, dan cara memulai</p>
 

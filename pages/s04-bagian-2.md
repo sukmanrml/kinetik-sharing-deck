@@ -5,7 +5,7 @@ class: text-center
 
 <p class="small">Bagian 2 dari 4</p>
 
-# Tur produk
+# Walkthrough fitur
 
 <p class="lead">Tiga peran, satu data</p>
 

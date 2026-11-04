@@ -1,7 +1,7 @@
 ---
 theme: default
 title: "Dari spreadsheet ke aplikasi: cerita Kinetik"
-info: Insight Series BPS Provinsi Sulawesi Tengah
+info: Sharing Session BPS Provinsi Sulawesi Tengah
 colorSchema: light
 duration: 90min
 timer: stopwatch
@@ -180,6 +180,10 @@ src: ./pages/27-semua-peran-struktur-organisasi.md
 src: ./pages/27f-panduan-di-aplikasi.md
 ---
 src: ./pages/27g-impor-kegiatan.md
+---
+
+---
+src: ./pages/27h-tambahan-november.md
 ---
 
 ---
