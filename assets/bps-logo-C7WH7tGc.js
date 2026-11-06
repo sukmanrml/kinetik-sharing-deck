@@ -1,0 +1,1 @@
+var e=`/kinetik-sharing-deck/bps-logo.svg`;export{e as t};
