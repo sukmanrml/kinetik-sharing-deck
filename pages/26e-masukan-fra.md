@@ -6,7 +6,7 @@
 <div class="card" style="padding:.4rem .7rem;font-size:.82rem" v-click><b>Masalah berulang, FRA cukup satu</b><br>Kendala yang sama muncul tiap bulan. Analisis triwulan disusun dari tiga bulan dan masalah yang sama ditulis sekali ("Jan–Mar: …").</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.82rem" v-click><b>Dua versi dari data yang sama</b><br>Versi sistem hanya bisa dibaca. Versi sunting dimulai dari salinannya, lalu PJ merapikan kolom analisis. Excel memakai versi sunting bila ada isinya.</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.82rem" v-click><b>Progres per IKU dengan judul yang berbeda</b><br>Tabel per IKU dan per tim dari capaian pekerjaan, berjudul "Progres per IKU" dan diberi catatan bahwa ini bukan realisasi IKU, supaya tidak menyesatkan.</div>
-<div class="card warn" style="padding:.4rem .7rem;font-size:.82rem" v-click><b>Berikutnya: tampilan seperti Excel</b><br>Satu lembar panjang yang bisa digulir dengan judul dan kolom menempel, dan unduhan Excel dalam bentuk yang sudah dikenal.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.82rem" v-click><b>Lembar seperti Excel</b><br>Tab baru di Kertas Kerja FRA: satu lembar panjang yang bisa digulir, dengan baris judul dan kolom Kode dan Indikator yang menempel. Unduhan Excel memakai bentuk yang sama.</div>
 </div>
 
 <!--
@@ -16,5 +16,5 @@ Bagian ini dari diskusi yang kami rekam dengan salah satu PJ tim tentang halaman
 [click] Ketiga, masalah yang sama berulang tiap bulan. Di FRA cukup ditulis sekali, jadi analisis triwulan disusun dari tiga bulan dan yang kembar digabung.
 [click] Keempat, dua versi dari data yang sama. Versi sistem tidak bisa diubah, versi sunting adalah salinan yang boleh dirapikan PJ.
 [click] Kelima, progres pekerjaan per IKU dan per tim, dengan judul yang berbeda dari FRA supaya tidak dikira realisasi IKU.
-[click] Yang belum: tampilan seperti Excel, satu lembar panjang dengan baris judul dan kolom pertama yang menempel.
+[click] Sudah ada: tab Lembar seperti Excel, satu lembar panjang dengan baris judul dan kolom pertama yang menempel.
 -->
