@@ -162,10 +162,12 @@ src: ./pages/25a-angka-kredit-cara-hitung.md
 
 ---
 src: ./pages/26d-fra-data-bulanan.md
+hide: true # FRA disembunyikan sementara
 ---
 
 ---
 src: ./pages/26e-masukan-fra.md
+hide: true # FRA disembunyikan sementara
 ---
 
 ---

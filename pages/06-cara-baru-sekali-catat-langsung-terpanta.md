@@ -16,7 +16,7 @@
 <div v-click="4" class="step goal"><span class="n">5</span><b>Pimpinan memantau</b>lewat Beranda dan menu Monitoring.</div>
 </div>
 
-<div v-click="5" class="card ok" style="margin-top:.5rem;font-size:.95rem"><b>Lima langkah manual menjadi lima tahap, dua dikerjakan sistem.</b> Tidak ada copy-paste antarlembar, dan masalah terlihat saat masih bisa diperbaiki.</div>
+<div v-click="5" class="card ok" style="margin-top:.5rem;font-size:.95rem"><b>Lima langkah manual menjadi lima tahap, dua dikerjakan sistem.</b></div>
 
 <style>
 .flow.tight .step { min-height: 4.6rem; font-size: .88rem; }
@@ -29,5 +29,5 @@ Satu pekerjaan yang sama dulu dicatat dua kali, lalu di-copy berulang. Baris ata
 [click] Cara baru dimulai dari pegawai: mencatat sekali, di kipApp atau di Kinetik.
 [click] Dua tahap berikutnya otomatis, tidak ada yang mengerjakan manual: sync antara kipApp dan Kinetik, dan Rekap Mingguan yang tersusun sendiri per pegawai dan per tim.
 [click] PJ tidak lagi copy. PJ memeriksa, lalu menulis satu parafrase untuk setiap RK. Pimpinan memantau lewat Beranda dan menu Monitoring.
-[click] Jadi dua dari lima tahap dikerjakan sistem. Tidak ada copy-paste antarlembar, dan masalah terlihat saat masih bisa diperbaiki.
+[click] Jadi dua dari lima tahap dikerjakan sistem.
 -->

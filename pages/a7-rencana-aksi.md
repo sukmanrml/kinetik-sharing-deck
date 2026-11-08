@@ -5,7 +5,7 @@
 <div class="grid2 compact" style="font-size:.78rem">
 <div class="card ok"><b>November</b><br><span class="small">Arsip kipApp untuk semua pegawai (sudah dibuat). Surat ke BKN untuk akses resmi. Rapikan 426 RK tanpa projek. Petakan data e-Kinerja dari buku panduan BKN dan layar pegawai percobaan.</span></div>
 <div class="card"><b>Desember</b><br><span class="small">Adaptor berkas: ekspor sesuai kolom e-Kinerja dan impor laporannya. Uji coba satu tim. Matikan fitur tulis kipApp bila BKN mengonfirmasi batas waktu. Putuskan: adaptor API atau tetap lewat berkas, dan nasib hosting.</span></div>
-<div class="card warn"><b>Januari</b><br><span class="small">SKP 2027 di e-Kinerja. Kinetik menjadi lapisan rekap, parafrase, pemantauan, FRA, angka kredit, dan arsip.</span></div>
+<div class="card warn"><b>Januari</b><br><span class="small">SKP 2027 di e-Kinerja. Kinetik menjadi lapisan rekap, parafrase, pemantauan, angka kredit, dan arsip.</span></div>
 <div class="card warn"><b>Risiko utama</b><br><span class="small">BKN belum membuka API untuk aplikasi lain. Login ASN Digital memakai reCAPTCHA dan MFA, jadi kata sandi tidak bisa disimpan seperti kipApp.</span></div>
 </div>
 

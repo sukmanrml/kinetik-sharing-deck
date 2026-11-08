@@ -15,7 +15,7 @@
 <div v-click class="card ok" style="margin-top:.8rem"><b>kipApp sebenarnya bisa menyimpan rencana untuk masa depan.</b> Server kipApp menerima kegiatan dengan tanggal di masa depan, dan sudah kami uji pada SKP sendiri. Yang menolaknya hanya validasi di form kipApp. Kinetik memakai jalur itu.</div>
 
 <!--
-Pertanyaan yang wajar: kenapa tidak tetap memakai Excel, atau kenapa tidak kipApp saja?
+Pertanyaan yang muncul: kenapa tidak tetap memakai Excel, atau kenapa tidak kipApp saja?
 [click] Pegawai mencatat sekali. Di Excel, pekerjaan dicatat dua kali. Di kipApp dan Kinetik, cukup sekali.
 [click] Rekap tim per minggu. Di Excel di-copy manual, di kipApp tidak ada, di Kinetik tersusun otomatis.
 [click] Target dan capaian. Di kipApp, angkanya hanya teks di dalam indikator. Di Kinetik, angka per RK sehingga bisa dijumlahkan.

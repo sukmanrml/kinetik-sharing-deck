@@ -12,7 +12,7 @@
 </div>
 
 <!--
-Pendekatan kami: Kinetik melengkapi kipApp. Kami tidak membuat sistem tandingan. kipApp tetap catatan resmi.
+Pendekatan kami: Kinetik melengkapi kipApp. Kinetik bukan pengganti kipapp. kipApp tetap catatan resmi.
 [click] Kinetik membaca RK dan kegiatan anggota dari kipApp. Catatan resmi tetap di kipApp.
 [click] Kinetik juga bisa mengirim kegiatan dan rencana kembali ke kipApp, sehingga pegawai cukup mengisi sekali. Kirim ke atasan, batalkan kirim, dan hapus kegiatan yang belum dikirim sudah diuji langsung di kipApp dan sudah aktif.
 [click] Hasilnya dilihat pimpinan lewat tampilan monitoring.

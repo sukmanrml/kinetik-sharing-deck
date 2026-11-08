@@ -1,7 +1,7 @@
 # Rencana sembilan puluh menit
 
 <div class="grid2 compact">
-<div v-click class="card"><b>1. Masalah dan gagasan</b> · 15 menit<br><span class="small">Mengapa pelaporan kinerja tim melelahkan, dan ide "catat sekali".</span></div>
+<div v-click class="card"><b>1. Masalah dan gagasan</b> · 15 menit<br><span class="small">Mencatat kegiatan mingguan terintegrasi</span></div>
 <div v-click class="card"><b>2. Walkthrough fitur</b> · 30 menit<br><span class="small">Tiga peran: anggota, PJ, pimpinan. Termasuk demo langsung.</span></div>
 <div v-click class="card"><b>3. Di balik layar</b> · 25 menit<br><span class="small">Cara terhubung ke kipApp, pola kode, keamanan, dan pengujian.</span></div>
 <div v-click class="card"><b>4. Evaluasi dan rencana tindak lanjut</b> · 10 menit<br><span class="small">Apa yang berhasil, apa yang salah, dan cara memulai di tim Anda.</span></div>
