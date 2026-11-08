@@ -2,7 +2,7 @@
 
 <p class="lead" style="margin:.1rem 0 .4rem">Kinetik berada di tengah. Setelah Januari, yang berbicara dengan pegawai adalah e-Kinerja.</p>
 
-```mermaid {scale: 0.7}
+```mermaid {scale: 0.62}
 flowchart LR
   U["Anggota, PJ, Pimpinan, Admin"] --> K["Kinetik"]
   K <-->|"baca dan tulis, token milik pegawai"| KIP["kipApp (sekarang)"]

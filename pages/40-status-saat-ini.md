@@ -1,6 +1,6 @@
 # Status saat ini
 
-<p class="lead">Disampaikan apa adanya.</p>
+<p class="lead" style="margin:.1rem 0 .3rem">Disampaikan apa adanya.</p>
 
 <div class="grid3">
 <div class="card"><span class="big">83</span><br>pegawai satuan kerja kita</div>
@@ -8,9 +8,11 @@
 <div class="card"><span class="big">9.756</span><br>kegiatan kipApp ter-sync</div>
 </div>
 
-<div class="card ok" style="margin-top:.8rem"><span class="tag">Berjalan</span> &nbsp;Aplikasi aktif di <b>kinetik.bpssulteng.id</b> sejak Oktober 2026.</div>
+<div style="font-size:.86em">
+<div class="card ok" style="margin-top:.4rem"><span class="tag">Berjalan</span> &nbsp;Aplikasi aktif di <b>kinetik.bpssulteng.id</b> sejak Oktober 2026.</div>
 <div class="card warn"><span class="tag p">Perlu tindakan</span> &nbsp;Anggota yang sudah masuk menyinkronkan datanya sendiri. Yang belum masuk memakai token admin, yang sedang expired.</div>
 <div class="card warn"><span class="tag p">Belum</span> &nbsp;Belum ada tim yang memakainya. Tahap berikutnya adalah pilot.</div>
+</div>
 
 <!--
 Saya sampaikan status apa adanya.
