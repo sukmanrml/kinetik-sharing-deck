@@ -7,7 +7,7 @@
 <tr v-click><td>Ubah dan hapus setelah dikirim</td><td>Kegiatan di kipApp boleh diubah atau dihapus selama belum dikirim ke atasan</td><td>Menyala</td><td>Sudah</td></tr>
 <tr v-click><td>Nilai SKP oleh atasan</td><td>Nilai dan umpan balik tiap RK dan perilaku, lalu Selesai menilai</td><td>Menyala</td><td>Belum</td></tr>
 <tr v-click><td>Buat RK Ketua, proyek, RK Anggota</td><td>Proyek dan RK dari Kinetik ikut dibuat di kipApp dengan akun PJ</td><td>Menyala</td><td>Belum</td></tr>
-<tr v-click><td>Tambah dan hapus IKI</td><td>Anggota menambah IKI pada RK di SKP yang Sedang dibuat</td><td>Mati</td><td>Belum</td></tr>
+<tr v-click><td>Tambah dan hapus IKI</td><td>Anggota menambah IKI pada RK di SKP yang Sedang dibuat</td><td>Mati</td><td>Sudah</td></tr>
 </tbody>
 </table>
 
@@ -19,6 +19,6 @@ Ini daftar saklar yang ada di menu Fitur, lengkap dengan keadaannya hari ini.
 [click] Ubah dan hapus kegiatan setelah dikirim ke kipApp. Menyala, sudah diuji langsung.
 [click] Nilai SKP oleh atasan. Menyala, tetapi belum pernah dijalankan ke kipApp asli, jadi nilai pertama diisi bersama atasan dan diperiksa di kipApp.
 [click] Pembuatan RK Ketua, proyek, dan RK Anggota di kipApp dengan akun PJ. Menyala, belum diuji langsung, jadi proyek pertama dibuat bersama PJ.
-[click] Penambahan IKI pada RK di SKP anggota. Masih mati. Dinyalakan bila sudah ada anggota yang siap mencoba dan kami bisa memeriksa hasilnya.
+[click] Penambahan IKI pada RK di SKP anggota. Masih mati, tetapi sudah diuji langsung: IKI uji dibuat di kipApp, terbaca kembali, lalu dihapus. Dinyalakan bila ada anggota yang siap mencoba.
 [click] Aturannya sama untuk semua: yang belum diuji langsung menulis data resmi, jadi pertama kali dipakai bersama pemiliknya dan dicek di kipApp. Kalau ada masalah, admin mematikannya dari menu Fitur tanpa menunggu pembaruan aplikasi. Data yang sudah masuk ke kipApp tidak ikut terhapus, jadi hapus manual di kipApp bila perlu.
 -->
