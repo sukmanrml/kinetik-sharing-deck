@@ -165,6 +165,10 @@ src: ./pages/26d-fra-data-bulanan.md
 ---
 
 ---
+src: ./pages/26e-masukan-fra.md
+---
+
+---
 src: ./pages/26a-pimpinan-persetujuan-skp.md
 ---
 
