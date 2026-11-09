@@ -1,4 +1,4 @@
-# Tambahan November (1 dari 4)
+# Tambahan November (1 dari 6)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi Capaian Bulanan</b><br>Bulan yang sudah lewat diisi sekali dalam satu tabel. kipApp ikut diperbarui dalam simpanan yang sama, jadi tidak bolak-balik.</div>
@@ -15,7 +15,7 @@ Sembilan tambahan terbaru, bagian pertama.
 
 ---
 
-# Tambahan November (2 dari 4)
+# Tambahan November (2 dari 6)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Impor AK dan perbandingannya</b><br>AK resmi sebelum kipApp dimasukkan dari rekapan kantor. Tabel perbandingan menaruh angka kantor 2023 sampai 2025 di samping hitungan Kinetik per tahun, lengkap dengan penyebab selisihnya.</div>
@@ -32,7 +32,7 @@ Bagian kedua.
 
 ---
 
-# Tambahan November (3 dari 4)
+# Tambahan November (3 dari 6)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kirim ke Atasan satu triwulan</b><br>Menu baru untuk mengirim semua kegiatan satu triwulan sekaligus, dikelompokkan per RK, seperti halaman SKP triwulan di kipApp. Ini langkah kegiatan. Mengirim SKP untuk dinilai tetap langkah terpisah di SKP Saya, sesudahnya.</div>
@@ -49,7 +49,7 @@ Bagian terakhir.
 
 ---
 
-# Tambahan November (4 dari 4)
+# Tambahan November (4 dari 6)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Ke kipApp hanya bila lengkap</b><br>Kegiatan rencana dikirim otomatis (tiap jam) atau lewat tombol Kirim hanya bila progres 100, capaian, dan bukti dukung sudah terisi. Yang belum lengkap tetap di Kinetik, dan pesannya menyebut apa yang kurang. Admin bisa mematikannya di saklar fitur.</div>
@@ -62,4 +62,38 @@ Bagian tambahan terakhir.
 [click] Kirim ke kipApp hanya bila lengkap: progres 100, capaian, bukti dukung. Pesan penolakan menyebut apa yang kurang.
 [click] Kartu Beranda membuka minggu berjalan; Realisasi hanya yang perlu capaian.
 [click] Kegiatan ganda: admin meninjau dan meminta, pegawai yang bertindak.
+-->
+
+---
+
+# Tambahan November (5 dari 6)
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Tabel rapat seperti Excel</b><br>Rekap Tim mingguan punya tab Tabel rapat: realisasi minggu lalu dan rencana minggu ini, per anggota, dengan target, realisasi, persen, progres, dan permasalahan. Anggota yang belum membuat rencana tetap tampil. PJ mengisi realisasi dan permasalahan langsung dari baris.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Parafrase di atas</b><br>Tab Parafrase RK terbuka lebih dulu, tanpa menggulir. Kelengkapan anggota dan daftar panjang diringkas, bisa dibuka, dan bisa dicari.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Beranda lebih sederhana</b><br>Anggota hanya melihat dua kartu: rencana minggu ini dan realisasi minggu lalu. PJ melihat Status anggota tim: satu baris per orang, siapa yang belum punya rencana atau belum mengisi realisasi.</div>
+</div>
+
+<!--
+Hasil rapat dengan spv, bagian pertama.
+[click] Tabel rapat: tabel seperti Excel lama, dua minggu sekaligus, dengan kolom permasalahan.
+[click] Parafrase tetap yang utama, jadi di atas.
+[click] Beranda: dua kartu untuk anggota, status per orang untuk PJ.
+-->
+
+---
+
+# Tambahan November (6 dari 6)
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi mingguan seperti kipApp</b><br>Tabel dan menu Aksi meniru halaman Pelaksanaan di kipApp. Dua tabel dalam satu halaman: realisasi minggu lalu, lalu rencana minggu ini. Pilihan masuk capaian SKP hanya muncul bila progres belum 100.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kegiatan berentang tetap satu</b><br>Satu kegiatan sebulan dihitung sekali, tampil tiap minggu bertanda Lanjutan, dan realisasinya dicatat per minggu untuk rapat.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Lebih sedikit menu</b><br>Rekap Tim jadi satu menu dengan pilihan Mingguan, Bulanan, dan Triwulanan. Review Bersama kini menampilkan semua tim untuk semua PJ, dan Excelnya memuat kolom permasalahan.</div>
+</div>
+
+<!--
+Hasil rapat dengan spv, bagian kedua.
+[click] Isi mingguan: tampilan dibuat sama dengan kipApp supaya dikenali.
+[click] Kegiatan sebulan satu kegiatan, realisasi per minggu.
+[click] Menu dikurangi, dan semua PJ bisa membaca semua tim.
 -->
