@@ -1,4 +1,4 @@
-# Tambahan November (1 dari 3)
+# Tambahan November (1 dari 4)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi Capaian Bulanan</b><br>Bulan yang sudah lewat diisi sekali dalam satu tabel. kipApp ikut diperbarui dalam simpanan yang sama, jadi tidak bolak-balik.</div>
@@ -15,7 +15,7 @@ Sembilan tambahan terbaru, bagian pertama.
 
 ---
 
-# Tambahan November (2 dari 3)
+# Tambahan November (2 dari 4)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Impor AK dan perbandingannya</b><br>AK resmi sebelum kipApp dimasukkan dari rekapan kantor. Tabel perbandingan menaruh angka kantor 2023 sampai 2025 di samping hitungan Kinetik per tahun, lengkap dengan penyebab selisihnya.</div>
@@ -32,7 +32,7 @@ Bagian kedua.
 
 ---
 
-# Tambahan November (3 dari 3)
+# Tambahan November (3 dari 4)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kirim ke Atasan satu triwulan</b><br>Menu baru untuk mengirim semua kegiatan satu triwulan sekaligus, dikelompokkan per RK, seperti halaman SKP triwulan di kipApp. Ini langkah kegiatan. Mengirim SKP untuk dinilai tetap langkah terpisah di SKP Saya, sesudahnya.</div>
@@ -45,4 +45,21 @@ Bagian terakhir.
 [click] Kirim ke Atasan: satu halaman untuk satu triwulan, maksimal 100 kegiatan per kiriman ke kipApp. Urutan biasanya: lengkapi kegiatan, kirim kegiatan di sini, lalu kirim SKP untuk dinilai di SKP Saya.
 [click] Ganti RK: kipApp sendiri mengizinkan RK diganti pada kegiatan yang belum dikirim, dan kami menguji panggilannya langsung sebelum meniru. Kegiatan impor Excel yang RK-nya salah bisa dibetulkan sendiri.
 [click] Admin kepegawaian: petugas SDM memegang data pegawai dan Angka Kredit tanpa harus menjadi admin penuh.
+-->
+
+---
+
+# Tambahan November (4 dari 4)
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Ke kipApp hanya bila lengkap</b><br>Kegiatan rencana dikirim otomatis (tiap jam) atau lewat tombol Kirim hanya bila progres 100, capaian, dan bukti dukung sudah terisi. Yang belum lengkap tetap di Kinetik, dan pesannya menyebut apa yang kurang. Admin bisa mematikannya di saklar fitur.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Beranda langsung ke minggunya</b><br>Kartu di Beranda pegawai kini membuka minggu yang berjalan, bukan sebulan. Kartu Realisasi hanya menampilkan kegiatan yang masih perlu capaian.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Kegiatan ganda ditinjau admin</b><br>Halaman Kegiatan ganda (dari Integritas data) memasangkan dua kegiatan mirip pada hari yang sama, menyarankan mana yang dipertahankan dan mana yang dihapus, lalu admin menekan Minta tindakan. Pegawainya menerima pemberitahuan dan menghapus sendiri. Admin tidak menghapus apa pun.</div>
+</div>
+
+<!--
+Bagian tambahan terakhir.
+[click] Kirim ke kipApp hanya bila lengkap: progres 100, capaian, bukti dukung. Pesan penolakan menyebut apa yang kurang.
+[click] Kartu Beranda membuka minggu berjalan; Realisasi hanya yang perlu capaian.
+[click] Kegiatan ganda: admin meninjau dan meminta, pegawai yang bertindak.
 -->
