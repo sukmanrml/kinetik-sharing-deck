@@ -15,6 +15,6 @@
 Prosedur kerja tiga peran dalam satu tabel.
 [click] Anggota. Dulu rencana disiapkan di Excel sendiri, kegiatan dicatat dua kali, target dan realisasi diketik sebagai kalimat, lalu lembar diserahkan ke PJ. Sekarang rencana diisi paling lambat Senin pukul sembilan di Rekap Mingguan, kegiatan dicatat sekali, target dan capaian berupa angka dengan uraian dan link bukti. Menjelang rapat tidak ada yang diserahkan karena PJ sudah melihat rekapnya.
 [click] PJ. Dulu menagih satu per satu, menerima lembar, copy dan menghitung manual, lalu menulis paragraf di Excel. Sekarang PJ membuka Kepatuhan Rencana, memeriksa angka per RK, menulis satu parafrase untuk tiap RK, mengisi target dan capaian RK, lalu mengunci.
-[click] Pimpinan. Dulu menunggu staf menyusun bahan dan membaca Excel tiap tim. Sekarang membuka Beranda dan Review Bersama.Kirim ke atasan bisa langsung dari Kinetik.
+[click] Pimpinan. Dulu menunggu staf menyusun bahan dan membaca Excel tiap tim. Sekarang membuka Beranda dan Review Bersama. Kirim ke atasan bisa langsung dari Kinetik.
 [click] Yang dipangkas: lembar pribadi, penagihan, copy dan hitung manual, serta menunggu bahan. Yang tetap oleh orangnya adalah yang memang perlu penilaian.
 -->
