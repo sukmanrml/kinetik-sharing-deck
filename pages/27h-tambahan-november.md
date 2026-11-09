@@ -69,8 +69,8 @@ Bagian tambahan terakhir.
 # Tambahan November (5 dari 6)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
-<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Tabel rapat seperti Excel</b><br>Rekap Tim mingguan punya tab Tabel rapat: realisasi minggu lalu dan rencana minggu ini, per anggota, dengan target, realisasi, persen, progres, dan permasalahan. Anggota yang belum membuat rencana tetap tampil. PJ mengisi realisasi dan permasalahan langsung dari baris.</div>
-<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Parafrase di atas</b><br>Tab Parafrase RK terbuka lebih dulu, tanpa menggulir. Kelengkapan anggota dan daftar panjang diringkas, bisa dibuka, dan bisa dicari.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Tabel rapat seperti Excel</b><br>Rekap Tim mingguan menampilkan dua tabel: realisasi minggu lalu dan rencana minggu ini, per anggota, dengan target, realisasi, persen, progres, dan permasalahan. Anggota yang belum membuat rencana tetap tampil. PJ mengisi realisasi dan permasalahan langsung dari baris.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Parafrase di atas</b><br>Parafrase RK ada paling atas tanpa menggulir. Dua tabel dan Kelengkapan anggota ada di bawahnya, bisa dilipat dan dicari, dan daftar panjang diringkas.</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Beranda lebih sederhana</b><br>Anggota hanya melihat dua kartu: rencana minggu ini dan realisasi minggu lalu. PJ melihat Status anggota tim: satu baris per orang, siapa yang belum punya rencana atau belum mengisi realisasi.</div>
 </div>
 
@@ -87,7 +87,7 @@ Hasil rapat dengan spv, bagian pertama.
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi mingguan seperti kipApp</b><br>Tabel dan menu Aksi meniru halaman Pelaksanaan di kipApp. Dua tabel dalam satu halaman: realisasi minggu lalu, lalu rencana minggu ini. Pilihan masuk capaian SKP hanya muncul bila progres belum 100.</div>
-<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kegiatan berentang tetap satu</b><br>Satu kegiatan sebulan dihitung sekali, tampil tiap minggu bertanda Lanjutan, dan realisasinya dicatat per minggu untuk rapat.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kegiatan berentang tetap satu</b><br>Satu kegiatan sebulan dihitung sekali, tampil tiap minggu bertanda Lanjutan, dan realisasinya dicatat per minggu untuk rapat. Aksi Perpanjang ke minggu depan menggantikan salinan.</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Lebih sedikit menu</b><br>Rekap Tim jadi satu menu dengan pilihan Mingguan, Bulanan, dan Triwulanan. Review Bersama kini menampilkan semua tim untuk semua PJ, dan Excelnya memuat kolom permasalahan.</div>
 </div>
 
