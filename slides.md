@@ -6,6 +6,13 @@ colorSchema: light
 duration: 90min
 timer: stopwatch
 aspectRatio: 16/9
+seoMeta:
+  ogTitle: "Dari spreadsheet ke aplikasi: cerita Kinetik"
+  ogDescription: "Sharing Session BPS Provinsi Sulawesi Tengah: Kinetik, tempat untuk mencatat dan memantau kinerja tim tiap minggu."
+  ogImage: https://sukmanrml.github.io/kinetik-sharing-deck/og-image.png
+  ogUrl: https://sukmanrml.github.io/kinetik-sharing-deck/
+  twitterCard: summary_large_image
+  twitterImage: https://sukmanrml.github.io/kinetik-sharing-deck/og-image.png
 transition: fade
 author: Sukma Nirmala Dewi, S.Tr.Stat.
 fonts:

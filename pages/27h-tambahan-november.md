@@ -88,12 +88,12 @@ Hasil rapat dengan spv, bagian pertama.
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi mingguan seperti kipApp</b><br>Tabel dan menu Aksi meniru halaman Pelaksanaan di kipApp. Dua tabel dalam satu halaman: realisasi minggu lalu, lalu rencana minggu ini. Pilihan masuk capaian SKP hanya muncul bila progres belum 100.</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kegiatan berentang tetap satu</b><br>Satu kegiatan sebulan dihitung sekali, tampil tiap minggu bertanda Lanjutan, dan realisasinya dicatat per minggu untuk rapat. Aksi Perpanjang ke minggu depan menggantikan salinan.</div>
-<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Lebih sedikit menu</b><br>Rekap Tim jadi satu menu dengan pilihan Mingguan, Bulanan, dan Triwulanan. Review Bersama kini menampilkan semua tim untuk semua PJ, dan Excelnya memuat kolom permasalahan.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Lebih sedikit menu</b><br>Rekap Tim jadi satu menu dengan pilihan Mingguan, Bulanan, dan Triwulanan. Review Bersama menampilkan semua tim untuk semua PJ, dengan Excel yang memuat kolom permasalahan. Kirim ke atasan hanya sekali per triwulan, dan halamannya lebih dulu menunjukkan kegiatan yang belum lengkap.</div>
 </div>
 
 <!--
 Hasil rapat dengan spv, bagian kedua.
 [click] Isi mingguan: tampilan dibuat sama dengan kipApp supaya dikenali.
 [click] Kegiatan sebulan satu kegiatan, realisasi per minggu.
-[click] Menu dikurangi, dan semua PJ bisa membaca semua tim.
+[click] Menu dikurangi, semua PJ bisa membaca semua tim, dan kirim ke atasan hanya per triwulan dengan pengecekan lebih dulu.
 -->
