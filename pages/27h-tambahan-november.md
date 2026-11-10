@@ -1,4 +1,4 @@
-# Tambahan November (1 dari 6)
+# Tambahan November (1 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi Capaian Bulanan</b><br>Bulan yang sudah lewat diisi sekali dalam satu tabel. kipApp ikut diperbarui dalam simpanan yang sama, jadi tidak bolak-balik.</div>
@@ -15,7 +15,7 @@ Sembilan tambahan terbaru, bagian pertama.
 
 ---
 
-# Tambahan November (2 dari 6)
+# Tambahan November (2 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Impor AK dan perbandingannya</b><br>AK resmi sebelum kipApp dimasukkan dari rekapan kantor. Tabel perbandingan menaruh angka kantor 2023 sampai 2025 di samping hitungan Kinetik per tahun, lengkap dengan penyebab selisihnya.</div>
@@ -32,7 +32,7 @@ Bagian kedua.
 
 ---
 
-# Tambahan November (3 dari 6)
+# Tambahan November (3 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Kirim ke Atasan satu triwulan</b><br>Menu baru untuk mengirim semua kegiatan satu triwulan sekaligus, dikelompokkan per RK, seperti halaman SKP triwulan di kipApp. Ini langkah kegiatan. Mengirim SKP untuk dinilai tetap langkah terpisah di SKP Saya, sesudahnya.</div>
@@ -49,7 +49,7 @@ Bagian terakhir.
 
 ---
 
-# Tambahan November (4 dari 6)
+# Tambahan November (4 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Ke kipApp hanya bila lengkap</b><br>Kegiatan rencana dikirim otomatis (tiap jam) atau lewat tombol Kirim hanya bila progres 100, capaian, dan bukti dukung sudah terisi. Yang belum lengkap tetap di Kinetik, dan pesannya menyebut apa yang kurang. Admin bisa mematikannya di saklar fitur.</div>
@@ -66,7 +66,7 @@ Bagian tambahan terakhir.
 
 ---
 
-# Tambahan November (5 dari 6)
+# Tambahan November (5 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Tabel rapat seperti Excel</b><br>Rekap Tim mingguan menampilkan dua tabel: realisasi minggu lalu dan rencana minggu ini, per anggota, dengan target, realisasi, persen, progres, dan permasalahan. Anggota yang belum membuat rencana tetap tampil. PJ mengisi realisasi dan permasalahan langsung dari baris.</div>
@@ -83,7 +83,7 @@ Hasil rapat dengan spv, bagian pertama.
 
 ---
 
-# Tambahan November (6 dari 6)
+# Tambahan November (6 dari 7)
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Isi mingguan seperti kipApp</b><br>Tabel dan menu Aksi meniru halaman Pelaksanaan di kipApp. Dua tabel dalam satu halaman: realisasi minggu lalu, lalu rencana minggu ini. Pilihan masuk capaian SKP hanya muncul bila progres belum 100.</div>
@@ -96,4 +96,21 @@ Hasil rapat dengan spv, bagian kedua.
 [click] Isi mingguan: tampilan dibuat sama dengan kipApp supaya dikenali.
 [click] Kegiatan sebulan satu kegiatan, realisasi per minggu.
 [click] Menu dikurangi, semua PJ bisa membaca semua tim, dan kirim ke atasan hanya per triwulan dengan pengecekan lebih dulu.
+-->
+
+---
+
+# Tambahan November (7 dari 7)
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Simpan realisasi ikut ke kipApp</b><br>Dulu "Simpan realisasi" hanya menyimpan di Kinetik, sehingga bukti dukung dan uraian tidak sampai ke kipApp (37 kegiatan milik 10 pegawai). Sekarang kegiatan yang sudah ada di kipApp dan belum dikirim ke atasan ikut diperbarui di kipApp, dan pesannya menyebut hasilnya.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Yang diisi di kipApp ikut kembali</b><br>Uraian dan bukti dukung yang diketik langsung di kipApp mengisi Kinetik saat sinkron, bila di Kinetik masih kosong. Isian Kinetik tidak pernah ditimpa.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Satu aturan status kegiatan</b><br>Status kegiatan (direncanakan, ada di kipApp, berjalan, selesai, terkirim, dibatalkan) kini ditetapkan di satu tempat dan mengikuti progres di kipApp. Pesan galat login dan isian kini berbahasa Indonesia.</div>
+</div>
+
+<!--
+Perbaikan setelah rapat.
+[click] Simpan realisasi kini ikut memperbarui kipApp bila kegiatan belum dikirim ke atasan.
+[click] Uraian dan bukti dukung dari kipApp mengisi Kinetik yang kosong, tanpa menimpa.
+[click] Status kegiatan punya satu aturan, dan pesan galat berbahasa Indonesia.
 -->
