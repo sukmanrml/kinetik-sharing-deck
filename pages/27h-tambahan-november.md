@@ -104,7 +104,7 @@ Hasil rapat dengan spv, bagian kedua.
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.5rem">
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Simpan realisasi ikut ke kipApp</b><br>Dulu "Simpan realisasi" hanya menyimpan di Kinetik, sehingga bukti dukung dan uraian tidak sampai ke kipApp (37 kegiatan milik 10 pegawai). Sekarang kegiatan yang sudah ada di kipApp dan belum dikirim ke atasan ikut diperbarui di kipApp, dan pesannya menyebut hasilnya.</div>
-<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Yang diisi di kipApp ikut kembali</b><br>Uraian dan bukti dukung yang diketik langsung di kipApp mengisi Kinetik saat sinkron, bila di Kinetik masih kosong. Isian Kinetik tidak pernah ditimpa.</div>
+<div class="card" style="padding:.4rem .7rem;font-size:.85rem" v-click><b>Yang diisi di kipApp ikut kembali</b><br>Uraian dan bukti dukung yang diketik langsung di kipApp mengisi Kinetik saat sinkron, bila di Kinetik masih kosong. Isian Kinetik tidak pernah ditimpa. Kegiatan yang lengkap kini langsung dikirim saat disimpan, tanpa menunggu pengiriman tiap jam.</div>
 <div class="card" style="padding:.4rem .7rem;font-size:.85rem;grid-column:span 2" v-click><b>Satu aturan status kegiatan</b><br>Status kegiatan (direncanakan, ada di kipApp, berjalan, selesai, terkirim, dibatalkan) kini ditetapkan di satu tempat dan mengikuti progres di kipApp. Pesan galat login dan isian kini berbahasa Indonesia.</div>
 </div>
 
