@@ -9,5 +9,5 @@ Beranda anggota sekarang menjawab empat hal untuk minggu ini, bukan dasbor penuh
 [click] Pertama, apakah rencana minggu ini sudah ada.
 [click] Kedua, berapa kegiatan minggu lalu yang capaiannya sudah diisi, dan mana yang belum.
 [click] Ketiga, kegiatan bulan ini yang sudah dan belum dikirim ke atasan.
-[click] Keempat, posisi SKP tahun ini. Capaian tim dan peringkat ada di menu Monitoring.
+[click] Keempat, posisi SKP tahun ini. Menu Monitoring, berisi capaian tim dan peringkat, hanya tampil untuk PJ, pimpinan, dan admin.
 -->
