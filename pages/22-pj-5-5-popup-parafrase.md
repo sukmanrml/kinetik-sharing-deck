@@ -9,5 +9,5 @@ Menekan tombol Isi parafrase tadi membuka popup ini. PJ menulis satu parafrase u
 [click] Pertama, di kiri ada kontribusi tiap anggota. PJ membaca, lalu bisa mengambil kalimatnya.
 [click] Kedua, di kanan PJ menulis parafrase sendiri. Tidak ada isi otomatis, karena ini memang butuh penilaian PJ.
 [click] Ketiga, target, satuan, dan capaian untuk RK itu, berupa angka.
-[click] Keempat, simpan. Tidak ada kunci: parafrase boleh diubah lagi kapan saja. Teksnya hanya terlihat oleh PJ, PIC RK, dan admin.
+[click] Keempat, simpan. Tidak ada kunci: parafrase boleh diubah lagi kapan saja. Hanya PJ yang menulis. Teksnya dibaca semua anggota tim dan pimpinan sebagai hasil rapat.
 -->
