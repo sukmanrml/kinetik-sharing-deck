@@ -4,7 +4,7 @@
 
 <div class="flow">
 <div v-click class="step"><span class="n">1</span><b>Direncanakan</b>ada di Kinetik saja. Boleh diubah atau dibatalkan.</div>
-<div v-click class="step auto"><span class="n">2</span><b>Ada di kipApp</b>dikirim otomatis pada tanggal mulai, atau tekan "Kirim ke kipApp". SKP triwulan dibuat dulu bila belum ada.<span class="tag auto-tag">otomatis</span></div>
+<div v-click class="step auto"><span class="n">2</span><b>Ada di kipApp</b>dikirim otomatis begitu lengkap dan tanggal mulai tiba, juga langsung saat "Simpan realisasi". SKP triwulan dibuat dulu bila belum ada.<span class="tag auto-tag">otomatis</span></div>
 <div v-click class="step"><span class="n">3</span><b>Berjalan, lalu selesai</b>anggota mengisi capaian dan menekan "Tandai selesai". Progres 100 dikirim ke kipApp.</div>
 <div v-click class="step goal"><span class="n">4</span><b>Terkirim ke atasan</b>tombol "Kirim ke atasan", satu per satu atau banyak sekaligus. Atasan baru bisa menilai setelah ini.</div>
 <div v-click class="step"><span class="n">5</span><b>Batal kirim atau hapus</b>"Batalkan kirim" mengembalikan ke langkah 3. "Hapus kegiatan" hanya untuk yang belum terkirim.</div>
@@ -15,7 +15,7 @@
 <!--
 Ini alur satu kegiatan dari Kinetik sampai ke atasan di kipApp.
 [click] Pertama, kegiatan direncanakan. Ia baru ada di Kinetik, jadi masih boleh diubah atau dibatalkan.
-[click] Kedua, pada tanggal mulai Kinetik mengirimnya ke kipApp, otomatis, atas nama anggota. Kalau SKP triwulan belum ada, Kinetik membuatnya dulu dari SKP Tahunan, seperti tombol Buat SKP Periodik di kipApp. Anggota juga bisa menekan Kirim ke kipApp lebih awal.
+[click] Kedua, pada tanggal mulai Kinetik mengirimnya ke kipApp, otomatis, atas nama anggota. Kalau SKP triwulan belum ada, Kinetik membuatnya dulu dari SKP Tahunan, seperti tombol Buat SKP Periodik di kipApp. Anggota tidak perlu menekan tombol kirim: Simpan realisasi yang membuat kegiatan lengkap langsung mengirimnya. Tombol Kirim ke kipApp hanya muncul untuk kegiatan hasil impor Excel dan untuk mencoba lagi bila pengiriman gagal.
 [click] Ketiga, anggota mengisi capaian dan menekan Tandai selesai. Progres seratus persen dikirim ke kipApp.
 [click] Keempat, Kirim ke atasan. Bisa satu per satu atau banyak sekaligus. Setelah ini atasan bisa menilai.
 [click] Kelima, kalau perlu ditarik kembali: Batalkan kirim mengembalikan kegiatan ke langkah tiga, dan Hapus kegiatan menghapusnya juga di kipApp, tetapi hanya untuk yang belum terkirim.
